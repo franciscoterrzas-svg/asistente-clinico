@@ -4,7 +4,7 @@ import os
 
 # 1. CONFIGURACIÓN DE LA SEGURIDAD Y API KEY (El nuevo formato del futuro AQ...)
 # Puedes ingresarla fijamente aquí o mediante variables de entorno en el servidor
-API_KEY = "TU_API_KEY_AQUI_EMPIEZA_CON_AQ" 
+API_KEY = "AQ.Ab8RN6L-k5m8IzU_DPwIrYgya5uxlT_z4uV0SBxKjhG8MxTs-w" 
 if API_KEY and API_KEY != "TU_API_KEY_AQUI_EMPIEZA_CON_AQ":
     genai.configure(api_key=API_KEY)
 
